@@ -10,17 +10,24 @@ export default class PlayersList extends Component {
         const data = [
             {
                 id: 0,
-                name: "David",
-                surname: "Jungman",
+                name: "Filip",
+                surname: "Kozák",
                 age: "17",
-                type: "Brankář"
+                type: "Slabej hráč Fortnite"
             },
             {
                 id: 1,
                 name: "Vladimir",
                 surname: "Hladky",
                 age: "18",
-                type: "Kuřák pér"
+                type: "King of Hředle"
+            },
+            {
+                id: 2,
+                name: "Lukáš",
+                surname: "Rýgl",
+                age: "18",
+                type: "Neumí Fortnite :("
             }
         ];
         return data;
