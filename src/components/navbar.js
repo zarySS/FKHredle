@@ -30,31 +30,29 @@ export default class Example extends React.Component {
     return (
       <div>
         <Navbar color="faded" light expand="md">
-          <NavbarBrand href="/">Hlavní stránka</NavbarBrand>
+          <NavbarBrand href="/">FK Hředle</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/components/">Novinky</NavLink>
+                <NavLink href="/components/">Galerie</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="http://www.fkhredle.webz.cz/">Muži</NavLink>
               </NavItem>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
-                  Tým
+                  odkazy
                 </DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem>
-                    Tabulka střelců
-                  </DropdownItem>
-                  <DropdownItem>
-                    
+                    něco
                   </DropdownItem>
                   <DropdownItem divider />
                   <DropdownItem>
-                    Reset
+                    něco
                   </DropdownItem>
+                  <DropdownItem divider />
                 </DropdownMenu>
               </UncontrolledDropdown>
             </Nav>
